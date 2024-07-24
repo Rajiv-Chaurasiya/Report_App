@@ -66,9 +66,7 @@
                 <td th:text="${item.name}"></td>
                 <td th:text="${item.planName}"></td>
                 <td th:text="${item.planStatus}"></td>
-               	<td th:text="${#temporals.format(item.startDate.atStartOfDay(), 'yyyy-MM-dd HH:mm:ss')}"></td>
-				<td th:text="${#temporals.format(item.endDate.atStartOfDay(), 'yyyy-MM-dd HH:mm:ss')}"></td>
-                <td th:text="${item.amt}"></td>
+               	
             </tr>
         </tbody>
     </table>
